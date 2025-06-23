@@ -79,7 +79,7 @@ class PdfArgs(BaseModel):
 
 # Constants (ensure these are set somewhere in your app)
 GCS_AVAILABLE = True
-GCS_PROJECT_ID = "onyx-syntax-451614-t2"
+GCS_PROJECT_ID = " "
 GCS_BUCKET_NAME = "agent-binod"
 
 def upload_pdf_to_gcs(pdf_bytes: bytes, user_name: str) -> str:
