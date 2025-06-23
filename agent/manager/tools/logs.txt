@@ -1,0 +1,5 @@
+2025-06-22 20:34:06,091 [INFO] pdf_creator_tool called with user_info: {'name': 'John Doe', 'location': 'New York, USA'}
+2025-06-22 20:34:06,095 [INFO] PDF document built successfully in memory.
+2025-06-22 20:34:06,095 [INFO] PDF bytes generated. Size: 2138 bytes.
+2025-06-22 20:34:06,095 [INFO] Attempting to upload PDF to GCS for user: John Doe
+2025-06-22 20:34:09,394 [ERROR] Failed to upload to GCS: you need a private key to sign credentials.the credentials you are currently using <class 'google.oauth2.credentials.Credentials'> just contains a token. see https://googleapis.dev/python/google-api-core/latest/auth.html#setting-up-a-service-account for more details.. Returning base64 encoded PDF.
